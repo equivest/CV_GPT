@@ -154,9 +154,9 @@ import ast
 from dotenv import load_dotenv
 load_dotenv()
 OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
-G_KEY = os.environ["G_KEY"]
-G_SCOPES = ast.literal_eval(os.environ["G_SCOPES"])
-G_PRJ_ID = os.environ["G_PRJ_ID"]
+#G_KEY = os.environ["G_KEY"]
+#G_SCOPES = ast.literal_eval(os.environ["G_SCOPES"])
+#G_PRJ_ID = os.environ["G_PRJ_ID"]
 
 
 from langchain.chat_models import ChatOpenAI
